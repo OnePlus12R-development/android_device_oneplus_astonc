@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2025 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,18 +13,18 @@ $(call inherit-product, device/oneplus/aston/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_aston
-PRODUCT_DEVICE := aston
+PRODUCT_NAME := lineage_astonc
+PRODUCT_DEVICE := astonc
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2609
+PRODUCT_MODEL := PJE110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 15 AP3A.240617.008 1758859159691 release-keys" \
-    BuildFingerprint=OnePlus/CPH2609EEA/OP5D35L1:15/TP1A.220905.001/U.R4T3.1632d6d_9d6f90_9e012b:user/release-keys \
-    DeviceName=OP5D35L1 \
-    DeviceProduct=CPH2609 \
-    SystemDevice=OP5D35L1 \
-    SystemName=CPH2609
+    BuildDesc="qssi-user 15 AP3A.240617.008 1758858563310 release-keys" \
+    BuildFingerprint=OnePlus/PJE110/OP5CF9L1:15/TP1A.220905.001/U.1d94395_275952_27eb03:user/release-keys \
+    DeviceName=OP5CF9L1 \
+    DeviceProduct=PJE110 \
+    SystemDevice=OP5CF9L1 \
+    SystemName=PJE110
